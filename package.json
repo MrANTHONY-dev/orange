@@ -1,0 +1,16 @@
+{
+  "name": "oroswap-bot",
+  "version": "1.1.0",
+  "description": "Advanced OroSwap Testnet bot with retries, logging, multiple pairs",
+  "main": "oroswap-bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node oroswap-bot.js"
+  },
+  "dependencies": {
+    "@zigchain/zigchain-sdk": "^1.0.0",
+    "node-fetch": "^2.6.7",
+    "dotenv": "^17.2.0",
+    "exponential-backoff": "^3.1.2"
+  }
+}
